@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	background:#EDDDDE
+}
+.wrapper{
+	width: 1500px;
+	height: 100%;
+	margin: 0 auto; 
+/*	background: red;		*/
+}
+.continer{
+	width: 1500px;
+	margin: 0 auto;
+	float: left;
+	background: gray;
+}
+.header{
+	background: #FFFFFF;
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	height: 200px;
+/*	background:red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%
+}
+.nav{
+	width: 80%;
+	height: 200px;
+/*	background:#FFFFFF;*/
+	float: right
+}
+.nav ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.nav li {
+	display: inline-block;
+	line-height: 200px;
+	margin: 0 20px auto;
+}
+.nav li a{
+	color: black;
+	text-decoration: none
+}
+.nav ul li a:hover {
+	opacity: 0.5;
+}
+.banner{
+	width: 1500px;
+	height: 700px;
+	background: url("img/banner.gif");
+    margin: 0 auto;
+	
+}
+.box1{
+	width: 1500px;
+	height: 150px;
+/*	background: pink;*/
+	margin: 0 auto;
+}
+h3{
+	line-height: 150px;
+	text-align: center;
+}
+
+.main{
+	width: 1500px;
+	height: 450px;
+/*	background: gray;*/
+	margin: 0 auto;
+	
+}
+.outer{
+	width: 100%;
+	height: 450px;
+	margin: 0 auto;
+}
+.left{
+	width: 450px;
+	height: 350px;
+	background: url("img/left.png");
+	float: left;
+/*	margin: 75px;*/
+	
+}
+.center{
+	width: 450px;
+	height: 350px;
+	background: url("img/center.jpg");
+	float: left;
+	margin: 0 auto;
+	
+}
+.right{
+	width: 450px;
+	height: 350px;
+	background: url("img/right.png");
+	float: left;
+/*	margin: 75px*/
+}
+.outer-left{
+	width: 450px;
+	height: 450px;
+/*	background: #F1E6E6;*/
+	float: left;
+}
+.outer-center{
+	width: 450px;
+	height: 450px;
+/*	background:#F1E6E6;*/
+	float: left;
+	margin: 0 75px;
+}
+.outer-right{
+	width: 450px;
+	height: 450px;
+/*	background:;*/
+	float: right;
+}
+
+.outer-left :hover{
+	opacity: 0.5;
+		
+}
+.outer-left a{
+	text-decoration: none;
+	color: black;
+	
+}
+.outer-center:hover{
+	opacity: 0.5;	
+}
+.outer-center a{
+	color: black;
+	text-decoration: none
+}
+.outer-right:hover{
+	opacity: 0.5;
+}
+.outer-right a {
+    color: black;
+	text-decoration: none;
+}
+h2{
+	padding-left: 10px;
+}
+h4{
+	padding-left:  10px
+}
+.box2{
+	width: 100%;
+	height: 150px;
+/*	background: gray;*/
+	margin: 0 auto;
+	float: left;
+}
+/*introduce*/
+.introduce{
+	width: 100%;
+	height: 450px;
+/*	background: red;*/
+	margin: 0 auto;
+	float: left;
+}
+.store{
+	width: 600px;
+	height: 450px;
+	background: url("img/store.jpg");
+	float: left;
+}
+.in-text{
+	width: 900px;
+	height: 450px;
+/*	background: gray;*/
+	float: right;
+	
+}
+.text{
+	width: 500px;
+	height: 230px;
+/*	background: pink;*/
+	margin: 0 auto;
+	padding-top: 150px
+	
+}
+.wc{
+	text-align: center;
+	padding: 200 0px 0px;
+}
+p{
+	text-align: center;
+}
+/*shoes*/
+.box3{
+	width: 100%;
+	height: 150px;
+	float: left;
+	
+	
+}
+.shoes{
+	width: 1500px;
+	height: 800px;
+/*	background-color: gray;*/
+	margin: 0 auto;
+	float: left;
+}
+.shoes-l{
+	width: 725px;
+	height: 800px;
+	float: left;
+	background: url("img/shoes1.jpg");
+}
+.shoes-r1{
+	width: 725px;
+	height: 375px;
+	background: url("img/shoes2.jpg") ;
+	float: right;
+}
+.shoes-r2{
+	width: 725px;
+	height: 375px;
+	background: url("img/shoes3.jpg");
+	float: right;
+	margin-top: 50px;
+}
+.shoes-l:hover{ opacity: 0.5}
+.shoes-r1:hover{ opacity: 0.5}
+.shoes-r2:hover{ opacity: 0.5}
+
+.box4{
+	height: 150px;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+.thenl{
+	width: 1500px;
+	height: 500px;
+	background: url("img/store2.jpg");
+	margin: 0 auto;
+	float: left;
+}
+.box5{
+	width: 100%;
+	height: 150px;
+	float: left;
+	margin: 0 auto;
+	
+}
+.about{
+	width: 1500px;
+	height: 300px;
+	background:red;
+	margin:0  auto;
+	float: left;	
+}
+.outer-ab{
+	width: 1500px;
+	height: 300px;
+	margin: 0 auto;
+/*	background:red*/
+	
+}
+.ab1{
+	width: 450px;
+	height: 300px;
+/*	background: red;*/
+	float: left;
+	margin: 0 auto;
+	padding: 150px 50px;
+	box-sizing: border-box;
+}
+.ab2{
+	width: 450px;
+	height: 300px;
+/*	background: pink;*/
+	float: left;
+	margin: 0 75px auto;
+	padding:150px;
+	box-sizing: border-box;
+}
+.ab3{
+	width: 450px;
+	height: 300px;
+/*	background: pink;*/
+	float: left;
+	margin: 0 auto;
+	padding: 150px 0 0 150px;
+	box-sizing: border-box;
+}
+.ab2 h1 h6{
+	color: black;
+}
